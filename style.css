@@ -1,0 +1,39 @@
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+h1 {
+    font-family: fantasy;
+    font-size: 2.5em;
+    text-align: center;
+    width: 400px;
+    border-bottom: 2px solid #849372;
+    margin: 20px auto;
+    box-shadow: 3px 1px 10px #849372;
+    color: #95A086;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    padding: 10px 0px;
+}
+
+img {
+width: 450px;
+height: 300px;;
+margin: 2px;
+transition: all 1s;
+}
+
+img:hover {
+    transform: scale(1.1);
+    border-radius: 20px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-image: linear-gradient(#dde0c1, white );
+    background: no-repeat;
+}
